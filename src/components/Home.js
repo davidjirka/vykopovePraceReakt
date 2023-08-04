@@ -52,7 +52,7 @@ const Home = () => {
 
     let wantedWorkForce = planing.meters / planing.hours;
 
-    if (wantedWorkForce >= actualWorkForce) {
+    if (wantedWorkForce > actualWorkForce) {
       setColor("red");
 
       console.log("metry: " + planing.meters);
